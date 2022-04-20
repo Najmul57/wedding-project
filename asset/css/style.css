@@ -31,8 +31,9 @@ ul li {
     margin-bottom: 30px;
     position: relative;
     padding-bottom: 10px;
-  }
-  .section-title h2:after {
+}
+
+.section-title h2:after {
     position: absolute;
     left: 0;
     top: 100%;
@@ -41,23 +42,26 @@ ul li {
     width: 20%;
     height: 5px;
     border-radius: 100%;
-  }
+}
 
 
 /* header start */
 .header-area.header-sticky.sticky {
     position: fixed;
     z-index: 99999;
-    background:cadetblue;
+    background: cadetblue;
     width: 100%;
     transition: 0.5s;
 }
+
 .navbar-brand img {
-	width: 100px;
+    width: 100px;
 }
-.header-sticky.sticky .navbar-brand img{
+
+.header-sticky.sticky .navbar-brand img {
     width: 80px;
 }
+
 header {
     position: absolute;
     z-index: 99999;
@@ -94,7 +98,7 @@ header {
 
 .banner-content h1 span {
     color: aquamarine;
-    font-size:70px;
+    font-size: 70px;
 }
 
 .offer-list {
@@ -108,12 +112,15 @@ header {
     text-transform: capitalize;
     margin-right: 20px;
 }
+
 .banner-content {
-	margin-top: 20%;
+    margin-top: 20%;
 }
+
 .typed-cursor {
-	display: none;
+    display: none;
 }
+
 /* banner end */
 
 /* about start */
@@ -141,7 +148,7 @@ header {
 /* about end */
 
 /* service start */
-.service-area{
+.service-area {
     background-image: url(../images/20.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -151,7 +158,8 @@ header {
     position: relative;
     z-index: 2;
 }
-.service-area::after{
+
+.service-area::after {
     position: absolute;
     left: 0;
     top: 0;
@@ -162,6 +170,7 @@ header {
     height: 100%;
     z-index: -1;
 }
+
 .single-service {
     text-align: center;
     border: 1px solid #ddd;
@@ -207,12 +216,13 @@ header {
 
 /* client start */
 .single-client {
-	text-align: center;
+    text-align: center;
 }
+
 /* client end */
 
- /* testimonial start */
-.testimonial-area{
+/* testimonial start */
+.testimonial-area {
     background-image: url(../images/10.jpg);
     background-position: center;
     background-attachment: fixed;
@@ -221,7 +231,8 @@ header {
     position: relative;
     z-index: 2;
 }
-.testimonial-area::after{
+
+.testimonial-area::after {
     position: absolute;
     content: '';
     left: 0;
@@ -232,20 +243,21 @@ header {
     opacity: .8;
     z-index: -1;
 }
- .single-testimonial img {
+
+.single-testimonial img {
     width: 250px;
     height: 250px;
     border-radius: 100%;
-  }
+}
 
- /* testimonial end */
+/* testimonial end */
 
- /* get in touch */
- span {
-	font-size: 20px;
-	text-transform: capitalize;
-	margin-bottom: 10px;
-	display: block;
+/* get in touch */
+span {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    display: block;
 }
 
 .single-testimonial h4 {
@@ -253,26 +265,40 @@ header {
     padding: 15px 0;
     margin: 0;
     color: #fff;
-  }
-  .single-testimonial.text-center p {
-	color: #fff;
-	font-style: italic;
+}
+
+.single-testimonial.text-center p {
+    color: #fff;
+    font-style: italic;
 }
 
 /* contact */
 
 .contact-info li span:first-child {
     width: 30px;
-  }
-  .contact-info li span i {
+}
+
+.contact-info li span i {
     font-size: 20px;
-  }
+}
+
 /* footer */
 .copyright span {
     margin: 0;
     padding: 20px 0;
     font-size: 18px;
-  }.copy-social a {
-	font-size: 20px;
-	margin-left: 10px;
+}
+
+.copy-social a {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+/* range scale */
+
+
+input[type="text"] {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
 }
